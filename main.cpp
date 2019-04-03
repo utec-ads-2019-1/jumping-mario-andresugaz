@@ -22,15 +22,15 @@ cin>>nroelementos;
 		{
 
 				scanf("%d",&matrix[i][0]);
-				     cout<<(matrix[i][0])<<endl;
+				     //cout<<(matrix[i][0])<<endl;
 				for (int z = 0; z<(matrix[i][0]);z++)
 				{
 					scanf("%d",&matrix[i+1][z]);
-					cout<<(matrix[i+1][z]);	
+					//cout<<(matrix[i+1][z]);	
 				}
-				cout<<endl;
+				//cout<<endl;
 		}
-	cout<<nroelementos;
+	//cout<<nroelementos;
 	for (int i=0;i<(nroelementos*2);i++)
 		{
 			int mayor = 0;
@@ -53,7 +53,7 @@ cin>>nroelementos;
 					}
 				}
 			contador = contador+1;
-			cout<<"Caso "<<contador<<": "<<menor<<" "<<mayor<<endl;
+			cout<<"Case "<<contador<<": "<<menor<<" "<<mayor<<endl;
 			}
 			}
 			return 0;
