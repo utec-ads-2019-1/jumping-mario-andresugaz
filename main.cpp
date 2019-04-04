@@ -22,15 +22,15 @@ cin>>nroelementos;
 		{
 
 				scanf("%d",&matrix[i][0]);
-				     //cout<<(matrix[i][0])<<endl;
+				     
 				for (int z = 0; z<(matrix[i][0]);z++)
 				{
 					scanf("%d",&matrix[i+1][z]);
-					//cout<<(matrix[i+1][z]);	
+						
 				}
-				//cout<<endl;
+				
 		}
-	//cout<<nroelementos;
+	
 	for (int i=0;i<(nroelementos*2);i++)
 		{
 			int mayor = 0;
@@ -59,15 +59,5 @@ cin>>nroelementos;
 			return 0;
 
 	}
-	/*for(int i=0;i<=testnumber;i++)
-	{	
-		
-		int nroelementos;
-		int Arrayi[nroelementos];
-		cin>>nroelementos;
-		for(int j = 0;j<nroelementos;j++)
-		cin>>Array
-			[j]=
-		
-	}*/
+	
 
